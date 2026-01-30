@@ -1,0 +1,103 @@
+$skyblue: #6BEDED;
+$ygreen: #70ec00;
+$dgrey: #252525;
+
+$font1: "Work Sans", sans-serif;
+$font2: "Montserrat", sans-serif;
+
+
+img {
+    max-width: 100%;
+}
+
+.help-block {
+    margin-bottom: 0;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semib {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.xbold {
+    font-weight: 900;
+    letter-spacing: 0 !important;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font1 {
+    font-family: $font1;
+}
+
+.font2 {
+    font-family: $font2;
+}
+
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #000;
+}
+
+.inherit {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        color: $skyblue;
+    }
+}
+
+.skyblue {
+    color: $skyblue;
+}
+
+.ygreen {
+    color: $ygreen;
+}
+
+.bg-skyblue {
+    background-color: $skyblue;
+}
+
+.bg-dgrey {
+    background-color: #252525;
+}
+
+.bg-gradient-1 {
+    background: linear-gradient(to right, #6beded 40%, #6eed6b 100%);
+
+}
+
+.bg-gradient-2 {
+    background: linear-gradient(to right, #6eed6b 0%, #6beded 50%, #6beded 50%);
+
+}
+
+.object-position-start {
+    object-position: left center;
+}

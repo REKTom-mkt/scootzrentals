@@ -1,0 +1,14 @@
+{
+    "name": "Scootz Mobility Scooter Rentals",
+    "short_name": "Scootz Mobility Scooter Rentals",
+    "icons": [
+        {
+            "src": "android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#222222",
+    "background_color": "#222222",
+    "display": "standalone"
+}
